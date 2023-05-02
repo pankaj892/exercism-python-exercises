@@ -5,6 +5,8 @@ def sum_of_multiples(limit, multiples):
             multiples.remove(0)
     result = []
 
+#loop through the multiples list and check if the number is a multiple of the limit
+
     for item in range(limit):
         for num in multiples:
             if item == 0:
